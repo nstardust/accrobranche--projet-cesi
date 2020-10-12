@@ -1,0 +1,14 @@
+<section id="{{ id }}" class="section modular-hero hero {{ page.header.hero_classes }} {{ page.header.background.parallax ? 'parallax' : '' }}"
+style="overflow: hidden;">
+    <div class="image-overlay">
+        {% set video = theme_var('custom_video_screen') %}
+        {% if video %}
+            {% set video_file = (video|first).name %}
+            <video src="{{ url('theme://video/' ~ video_file)  }}" preload="auto" autoplay="autoplay" loop="loop" muted="muted"></video>
+        {% endif %}
+    </div>
+    <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
+        {{ content|raw }}
+    </section>
+    <i id="to-start" class="pulse fa fa-angle-down"></i>
+</section>
