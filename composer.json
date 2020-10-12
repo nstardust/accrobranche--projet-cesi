@@ -53,6 +53,8 @@
         "willdurand/negotiation": "2.x-dev"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master"
+        ,
         "codeception/codeception": "^2.4",
         "phpstan/phpstan": "^0.11",
         "phpstan/phpstan-deprecation-rules": "^0.11.0",
