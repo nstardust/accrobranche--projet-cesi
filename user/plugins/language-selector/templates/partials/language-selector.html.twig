@@ -14,7 +14,7 @@
 
     {% set show_language = true %}
     {% if language == language_selector.current %}
-        {% set lang_url = page.url %}
+        {% set lang_url = page.url ~ '/' %}
     {% else %}
         {% set base_lang_url = base_url_simple ~ grav.language.getLanguageURLPrefix(language) %}
         {% set lang_url = base_lang_url ~ language_selector.page_route ~ page.urlExtension %}

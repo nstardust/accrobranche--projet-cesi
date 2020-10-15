@@ -19,12 +19,12 @@ metadata:
     'twitter:title': '&Eacute;t&eacute; 2020 | Accro-branch&eacute;'
     'twitter:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/ete-2020/forest-climbing-park.jpg'
     'article:published_time': '2020-06-30T17:30:00+02:00'
-    'article:modified_time': '2020-10-15T10:35:46+02:00'
+    'article:modified_time': '2020-10-15T17:31:05+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
-## You can see how I lived before I met you.
+## Vous pouvez voir comment j'ai vécu avant de vous rencontrer.
 
-Whoa a real live robot; or is that some kind of cheesy New Year's costume? Michelle, I don't regret this, but I both rue and lament it. OK, this has gotta stop. I'm going to remind Fry of his humanity the way only a woman can.
+Whoa un vrai robot vivant; ou est-ce une sorte de costume ringard du Nouvel An? Michelle, je ne le regrette pas, mais je le regrette et je le déplore. OK, ça doit s'arrêter. Je vais rappeler à Fry son humanité comme seule une femme le peut.
 
-Hey, you add a one and two zeros to that or we walk! Ummm…to eBay? Quite possible. We live long and are celebrated poopers. No, just a regular mistake. **Meh**. Now, now. Perfectly symmetrical violence never solved anything.
+Hé, tu ajoutes un un et deux zéros à ça ou on marche! Euh… sur eBay? Tout à fait possible. Nous vivons longtemps et sommes des caca célèbres. Non, juste une erreur ordinaire. **Meh**. Maintenant, maintenant. La violence parfaitement symétrique n'a jamais rien résolu.
