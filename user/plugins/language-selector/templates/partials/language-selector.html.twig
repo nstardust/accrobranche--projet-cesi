@@ -32,6 +32,8 @@
     {% endif %}
 
     {% if show_language %}
+      {% if lang_url != url(language_selector.current~'/') %}
+
         <li>
           <a href="{{ lang_url ~ uri.params }}">
             {% if language_display.select == 'default' or language_display.select == 'flag' %}
@@ -42,6 +44,8 @@
             {% endif %}
           </a>
         </li>
+
+      {% endif %}
     {% endif %}
 
 {% endfor %}
