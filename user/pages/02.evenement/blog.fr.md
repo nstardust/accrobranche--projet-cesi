@@ -27,9 +27,9 @@ metadata:
     'twitter:card': summary_large_image
     'twitter:title': '&Eacute;v&eacute;nements | Accro-branch&eacute;'
     'twitter:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/insta_post_carrement.jpg'
-    'article:published_time': '2020-10-15T10:32:37+02:00'
-    'article:modified_time': '2020-10-15T10:32:37+02:00'
+    'article:published_time': '2020-10-15T10:32:53+02:00'
+    'article:modified_time': '2020-10-15T22:24:39+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
-# Événements Accrobranché
+# Événements Accro-branché

@@ -86,3 +86,9 @@
     color: #333;
     white-space: nowrap;
 }
+
+@media (max-width:840px) {
+	.language-selector {
+		margin: 0 3rem !important;
+	}
+}

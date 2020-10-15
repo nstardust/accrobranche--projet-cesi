@@ -1,5 +1,5 @@
 ---
-title: Événements
+title: Events
 media_order: insta_post_carrement.jpg
 aura:
     pagetype: website
@@ -16,20 +16,20 @@ content:
     pagination: true
     url_taxonomy_filters: true
 metadata:
-    'og:url': 'http://localhost/accrobranche--projet-cesi/fr/evenement'
+    'og:url': 'http://localhost/accrobranche--projet-cesi/en/evenement'
     'og:type': website
-    'og:title': '&Eacute;v&eacute;nements | Accro-branch&eacute;'
-    'og:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/insta_post_carrement.jpg'
+    'og:title': 'Events | Accro-branch&eacute;'
+    'og:image': 'http://localhost/accrobranche--projet-cesi/en/evenement/insta_post_carrement.jpg'
     'og:image:type': image/jpeg
     'og:image:width': '1080'
     'og:image:height': '1080'
     'og:author': 'Accrobranch&eacute;'
     'twitter:card': summary_large_image
-    'twitter:title': '&Eacute;v&eacute;nements | Accro-branch&eacute;'
-    'twitter:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/insta_post_carrement.jpg'
-    'article:published_time': '2020-10-15T10:32:37+02:00'
-    'article:modified_time': '2020-10-15T10:32:37+02:00'
+    'twitter:title': 'Events | Accro-branch&eacute;'
+    'twitter:image': 'http://localhost/accrobranche--projet-cesi/en/evenement/insta_post_carrement.jpg'
+    'article:published_time': '2020-10-15T22:22:27+02:00'
+    'article:modified_time': '2020-10-15T22:22:27+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
-# Events Accrobranché
+# Events Accro-branché
