@@ -39,7 +39,7 @@ pages:
     count: 20
   dateformat:
     default: 'd-m-Y H:i'
-    short: 'jS M Y'
+    short: 'j M Y'
     long: 'd-m-y G:i'
   publish_dates: true
   process:
