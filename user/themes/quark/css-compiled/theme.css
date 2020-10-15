@@ -365,6 +365,8 @@ ul.pagination { -ms-flex-pack: center; justify-content: center; }
 
 .modular-hero #to-start { bottom: 3.5rem; }
 
+.modular-blog h1, .modular-blog h2, .modular-blog h3, .modular-blog h4, .modular-blog h5, .modular-blog h6 { text-align: center; }
+
 .modular-features { text-align: center; }
 
 .modular-features.offset-box .frame-box { margin: -3rem -1.4rem 3rem; padding: 1rem 1rem; background: #fff; box-shadow: 0 0 75px 0 rgba(69, 77, 93, 0.1); }

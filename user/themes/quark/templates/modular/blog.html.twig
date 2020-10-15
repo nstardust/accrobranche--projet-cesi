@@ -1,0 +1,26 @@
+{% set grid_size = theme_var('grid-size') %}
+{% set collection = page.collection() %}
+{% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
+
+<section class="section modular-blog {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+
+        {{ content|raw }}
+
+        {% embed 'partials/layout.html.twig' with {blog: page} %}
+            {% block item %}
+
+                <div class="bricklayer">
+                    {% for child in collection %}
+                        {% include 'partials/homepage-list-item.html.twig' with {blog: page, page: child} %}
+                    {% endfor %}
+                </div>
+
+            {% endblock %}
+
+            {% block sidebar %}
+                {% include 'partials/sidebar.html.twig' %}
+            {% endblock %}
+        {% endembed %}
+    </section>
+</section>
