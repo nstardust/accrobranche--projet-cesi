@@ -16,31 +16,31 @@ Check that the installation is correctly configured in your environment variable
 
 Click on **[Environment variables ...]**
 
-![](images/variable env.png)
+![](images/variable_env.png)
 
 <br/>
 
 Double click on **PATH** from *User variables*...
 
-![](images/PATH.png)
+![](images/path.png)
 
 <br/>
 
 ... and check that the paths of the **php** and **composer/bin** folders are present
 
-![](images/PATH chemin.png)
+![](images/path_chemin.png)
 
 <br/>
 
 Double click on **Path** from *System Variables*...
 
-![](images/Path sys.png)
+![](images/path_sys.png)
 
 <br/>
 
 ... then check the presence of the paths of the **php**, **composer/bin** and **symfony** folders, e.g.
 
-![](images/Path sys chemin.png)
+![](images/path_sys_chemin.png)
 
 <br/>
 
