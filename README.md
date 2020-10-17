@@ -1,4 +1,4 @@
-# ![](images/accrobranche_without 60x60.png) Accro-branché
+# ![](images/accrobranche_without_60x60.png) Accro-branché
 
 [fr] **Accro-branché** est un projet à l'initiative de [Pierre Beuselinck](https://github.com/nstardust) et [Michaël Lemay](https://github.com/lemayMichael) pour le [CESI d'Arras](https://arras.cesi.fr/)
 

@@ -16,31 +16,31 @@ Vérifier que l'installation est bien configuré dans vos variables d'environnem
 
 Cliquez sur **[Variables d'environnement...]**
 
-![](images/variable env.png)
+![](images/variable_env.png)
 
 <br/>
 
 Double-cliquez sur **PATH** depuis *Variables utilisateur*...
 
-![](images/PATH.png)
+![](images/path.png)
 
 <br/>
 
 ...et vérifiez que les chemins des dossiers **php** et **composer/bin** sont présents, e.g.
 
-![](images/PATH chemin.png)
+![](images/path_chemin.png)
 
 <br/>
 
 Double-cliquez sur **Path** depuis *Variables système*...
 
-![](images/Path sys.png)
+![](images/path_sys.png)
 
 <br/>
 
 ...puis vérifiez la présence des chemins des dossiers **php**, **composer/bin** et **symfony**, e.g.
 
-![](images/Path sys chemin.png)
+![](images/path_sys_chemin.png)
 
 <br/>
 
