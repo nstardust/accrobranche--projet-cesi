@@ -62,6 +62,7 @@ Tout en maintenant la touche **Maj &#8679;** enfoncée, faites un clic droit sur
 
 - Depuis la console, taper ``composer install``
 - Une fois l'installation terminée, taper ``composer update``
+- Pour finir, taper ``php bin/grav composer --install``
 
 Démarrez Apache, e.g.
 
