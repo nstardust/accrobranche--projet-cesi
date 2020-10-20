@@ -62,7 +62,7 @@ While holding down the **Shift &#8679;** key, right click on the htdocs\\**accro
 
 - From the console, type ``composer install``
 - Once the installation is complete, type ``composer update``
-- Finally, type ``php bin/grav composer --install``
+- Finally, type ``composer install`` in each installed plugins folder with a *composer.json*
 
 Start Apache, e.g.
 
