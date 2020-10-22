@@ -1,9 +1,0 @@
-enabled: true
-route: /
-filters:
-  category: null
-feed_parameters:
-  count: 3
-  cache_time: 1
-  user_id: '36824427140'
-  access_token: 359740542007486|4JY08xFXopT0aeKgq3iUxvWrOa0
