@@ -11,17 +11,17 @@ spectre:
   exp: false
   icons: false
 custom_logo:
-  user/themes/quark/images/logo/accrobranche_without.png:
-    name: accrobranche_without.png
+  user/themes/quark/images/logo/accrobranche_symbole.png:
+    name: accrobranche_symbole.png
     type: image/png
-    size: 53618
-    path: user/themes/quark/images/logo/accrobranche_without.png
+    size: 61192
+    path: user/themes/quark/images/logo/accrobranche_symbole.png
 custom_logo_mobile:
-  user/themes/quark/images/logo/accrobranche_without.png:
-    name: accrobranche_without.png
+  user/themes/quark/images/logo/accrobranche_symbole.png:
+    name: accrobranche_symbole.png
     type: image/png
-    size: 53618
-    path: user/themes/quark/images/logo/accrobranche_without.png
+    size: 61192
+    path: user/themes/quark/images/logo/accrobranche_symbole.png
 custom_video_screen:
   user/themes/quark/video/171120_002.mp4:
     name: 171120_002.mp4
