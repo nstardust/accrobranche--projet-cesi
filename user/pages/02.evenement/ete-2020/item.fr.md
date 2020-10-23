@@ -4,12 +4,16 @@ media_order: forest-climbing-park.jpg
 date: '30-06-2020 17:30'
 aura:
     pagetype: article
+    description: 'Accrobranche | Accro-branché : L''été est la saison idéale pour (re)découvrir l''accrobranche ! Chez Accro-branché, nous proposons diverses activités de pleine aires, pour tout âge, tout niveau.'
+    image: forest-climbing-park.jpg
 hero_classes: overlay-light
 hero_image: forest-climbing-park.jpg
 metadata:
+    description: 'Accrobranche | Accro-branch&eacute; : L''&eacute;t&eacute; est la saison id&eacute;ale pour (re)d&eacute;couvrir l''accrobranche ! Chez Accro-branch&eacute;, nous proposons diverses activit&eacute;s de pleine aires, pour tout &acirc;ge, tout niveau.'
     'og:url': 'http://localhost/accrobranche--projet-cesi/fr/evenement/ete-2020'
     'og:type': article
     'og:title': '&Eacute;t&eacute; 2020 | Accro-branch&eacute;'
+    'og:description': 'Accrobranche | Accro-branch&eacute; : L''&eacute;t&eacute; est la saison id&eacute;ale pour (re)d&eacute;couvrir l''accrobranche ! Chez Accro-branch&eacute;, nous proposons diverses activit&eacute;s de pleine aires, pour tout &acirc;ge, tout niveau.'
     'og:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/ete-2020/forest-climbing-park.jpg'
     'og:image:type': image/jpeg
     'og:image:width': '960'
@@ -17,9 +21,10 @@ metadata:
     'og:author': 'Accrobranch&eacute;'
     'twitter:card': summary_large_image
     'twitter:title': '&Eacute;t&eacute; 2020 | Accro-branch&eacute;'
+    'twitter:description': 'Accrobranche | Accro-branch&eacute; : L''&eacute;t&eacute; est la saison id&eacute;ale pour (re)d&eacute;couvrir l''accrobranche ! Chez Accro-branch&eacute;, nous proposons diverses activit&eacute;s de pleine aires, pour tout &acirc;ge, tout niveau.'
     'twitter:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/ete-2020/forest-climbing-park.jpg'
     'article:published_time': '2020-06-30T17:30:00+02:00'
-    'article:modified_time': '2020-10-19T09:22:29+02:00'
+    'article:modified_time': '2020-10-23T11:02:46+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
