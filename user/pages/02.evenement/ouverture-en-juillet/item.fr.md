@@ -11,10 +11,10 @@ metadata:
     'twitter:card': summary_large_image
     'twitter:title': 'Ouverture en Juillet | Accro-branch&eacute;'
     'article:published_time': '2020-06-29T08:30:00+02:00'
-    'article:modified_time': '2020-10-15T10:29:26+02:00'
+    'article:modified_time': '2020-10-23T10:56:33+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
 ## Réouverture le Mardi 21 Juillet
 
-Suivez le planning des événements [ici](http://localhost/accrobranche--projet-cesi/fr/evenement/ete-2020)
+Suivez le planning des événements [ici](http://localhost/accrobranche--projet-cesi/fr/evenement/nouvelles-actives-2020)

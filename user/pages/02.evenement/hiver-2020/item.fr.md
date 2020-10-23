@@ -19,14 +19,12 @@ metadata:
     'twitter:title': 'Hiver 2020 | Accro-branch&eacute;'
     'twitter:image': 'http://localhost/accrobranche--projet-cesi/fr/evenement/hiver-2020/winter-forest.jpg'
     'article:published_time': '2020-10-12T10:30:00+02:00'
-    'article:modified_time': '2020-10-15T17:35:41+02:00'
+    'article:modified_time': '2020-10-19T09:22:29+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
-## Vous avez vécu avant de me rencontrer?!
+## Accrobranche : tout ce qu’il faut savoir
 
-Aussi Zoidberg. Votre meilleur est un idiot! Peut-être que je t'aime tellement que je t'aime peu importe qui tu prétends être. Eh bien, ce sont les Grunka-Lunkas! Ils travaillent ici dans l'usine Slurm. Robot 1-X, sauvez mes amis! Et Zoidberg!
+**Vous souhaitez prendre un grand bol d’air, faire une activité en famille amusante, peu coûteuse et qui permet aux enfants (et aux grands!) de se défouler ? L’accrobranche est l’activité idéale pour cela !**
 
-1. Vous ne savez pas comment faire quoi que ce soit.
-2. Dans notre heure la plus sombre, nous pouvons nous tenir debout, avec des seins fiers et relevés.
-3. N'est-il pas vrai que vous avez été payé pour votre témoignage?
+L’accrobranche est principalement associé au parcours d’aventure en pleine nature plus précisément au **parcours acrobatique en hauteur** (PAH). C’est une discipline aérienne et acrobatique inspirée des parcours militaires. Aujourd’hui, elle est adaptée au grand public. Cette activité est accessible à tous; petits comme grands peuvent venir s’amuser !

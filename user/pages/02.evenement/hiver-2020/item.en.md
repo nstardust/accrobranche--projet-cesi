@@ -19,14 +19,12 @@ metadata:
     'twitter:title': 'Winter 2020 | Accro-branch&eacute;'
     'twitter:image': 'http://localhost/accrobranche--projet-cesi/en/evenement/hiver-2020/winter-forest.jpg'
     'article:published_time': '2020-10-12T10:30:00+02:00'
-    'article:modified_time': '2020-10-15T17:36:42+02:00'
+    'article:modified_time': '2020-10-23T11:07:31+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 
-## You lived before you met me?!
+## Tree climbing: all you need to know
 
-Also Zoidberg. Your best is an idiot! Maybe I love you so much I love you no matter who you are pretending to be. Why, those are the Grunka-Lunkas! They work here in the Slurm factory. Robot 1-X, save my friends! And Zoidberg!
+**Do you want to take a breath of fresh air, do a fun, inexpensive family activity that allows children (and adults!) To let off steam? Tree climbing is the ideal activity for this!**
 
-1. You don't know how to do any of those.
-2. In our darkest hour, we can stand erect, with proud upthrust bosoms.
-3. Isn't it true that you have been paid for your testimony?
+The tree climbing is mainly associated with the adventure course in the heart of nature, more precisely with the **acrobatic course in height** (PAH). It is an aerial and acrobatic discipline inspired by military backgrounds. Today it is suitable for the general public. This activity is accessible to all; young and old alike can come and have fun!
