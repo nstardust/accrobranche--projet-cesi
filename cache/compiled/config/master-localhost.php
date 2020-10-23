@@ -1,117 +1,121 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1595006928,
-    'checksum' => '80c653bf503d7518a45d9795112ec285',
+    'timestamp' => 1603266853,
+    'checksum' => '73fd605a058902123bf0adb56b3f73ca',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1594735291
+                'modified' => 1603264544
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1594735291
+                'modified' => 1603264544
             ],
             'plugins/aura' => [
                 'file' => 'user/config/plugins/aura.yaml',
-                'modified' => 1594745260
+                'modified' => 1603264544
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
-                'modified' => 1594998225
+                'modified' => 1603264544
+            ],
+            'plugins/language-selector' => [
+                'file' => 'user/config/plugins/language-selector.yaml',
+                'modified' => 1603264544
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/config/plugins/markdown-notices.yaml',
-                'modified' => 1594998222
+                'modified' => 1603264544
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1594735291
+                'modified' => 1603264544
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1594735291
+                'modified' => 1603264544
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1594735447
+                'modified' => 1603264544
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1594735291
+                'modified' => 1603264544
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1595006926
+                'modified' => 1603264544
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1594997792
+                'modified' => 1603264544
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1594992817
+                'modified' => 1603264544
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264544
             ],
             'plugins/aura' => [
                 'file' => 'user/plugins/aura/aura.yaml',
-                'modified' => 1594744794
+                'modified' => 1603264545
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1594739318
+                'modified' => 1603264545
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1594735352
+                'modified' => 1603264545
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1591774633
+                'modified' => 1603264545
             ],
-            'plugins/langswitcher' => [
-                'file' => 'user/plugins/langswitcher/langswitcher.yaml',
-                'modified' => 1594745169
+            'plugins/language-selector' => [
+                'file' => 'user/plugins/language-selector/language-selector.yaml',
+                'modified' => 1603264545
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1591774633
+                'modified' => 1603264545
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1591774632
+                'modified' => 1603264545
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/sitemap.yaml',
-                'modified' => 1594744975
+                'modified' => 1603264545
             ]
         ]
     ],
@@ -266,10 +270,12 @@ return [
                     'secret_key' => NULL
                 ]
             ],
-            'langswitcher' => [
+            'language-selector' => [
                 'enabled' => true,
                 'built_in_css' => true,
-                'untranslated_pages_behavior' => 'none'
+                'untranslated_pages_behavior' => 'none',
+                'button_display' => 'flag',
+                'select_display' => 'flag'
             ],
             'login' => [
                 'enabled' => true,
@@ -725,10 +731,10 @@ node_modules'
             'salt' => 'iHlWQO8TDopIjb'
         ],
         'site' => [
-            'title' => 'Accrobranché',
+            'title' => 'Accro-branché',
             'default_lang' => 'fr',
             'author' => [
-                'name' => 'Michaël LEMAY',
+                'name' => 'Accro-branché',
                 'email' => 'michael.lemay@lilo.org'
             ],
             'taxonomies' => [
@@ -822,7 +828,7 @@ node_modules'
                 ],
                 'dateformat' => [
                     'default' => 'd-m-Y H:i',
-                    'short' => 'jS M Y',
+                    'short' => 'j M Y',
                     'long' => 'd-m-y G:i'
                 ],
                 'publish_dates' => true,
