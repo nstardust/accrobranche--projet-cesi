@@ -4,8 +4,7 @@ aura:
     pagetype: website
 content:
     items:
-        -
-            '@page': /evenement
+        '@page': /evenement
     limit: 3
     order:
         by: date
@@ -17,8 +16,8 @@ metadata:
     'og:author': 'Accrobranch&eacute;'
     'twitter:card': summary_large_image
     'twitter:title': 'Homepage Blog | Accro-branch&eacute;'
-    'article:published_time': '2020-10-15T13:41:03+02:00'
-    'article:modified_time': '2020-10-15T13:41:03+02:00'
+    'article:published_time': '2020-10-21T12:04:27+02:00'
+    'article:modified_time': '2020-10-21T12:04:27+02:00'
     'article:author': 'Accrobranch&eacute;'
 ---
 

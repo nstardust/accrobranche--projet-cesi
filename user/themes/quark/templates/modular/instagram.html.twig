@@ -1,0 +1,21 @@
+{% set grid_size = theme_var('grid-size') %}
+{% set images = page.media.images %}
+
+<section class="section modular-blog {{ page.header.class}}">
+    <section class="container-fluid {{ grid_size }}">
+
+        {{ content|raw }}
+        {% if images %}
+            <div class="columns" id="instafeed" style="{% if images|length != 1 %} align-content: space-around; {% else %} justify-content: center; {% endif %}">
+            {% for image in images %}
+                <div class="column col-xs-6 col-sm-4 col-md-3 col-lg-2 col-3" {% if images|length != 1 %}style="flex: auto;"{% endif %}>
+                    <a href="{{ 'https://www.instagram.com/p/'~image.basename }}" target="_blank">
+                        <img src="{{image.url|raw}}" class="img-fluid" alt=""/>
+                    </a>
+                </div>
+            {% endfor %}
+            </div>
+        {% endif %}
+
+    </section>
+</section>
