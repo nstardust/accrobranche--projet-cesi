@@ -92,6 +92,6 @@ class __TwigTemplate_d8f4c5f1fb08f356690e9148e7a31bef607c4510399056072a83f0601be
     {
         return new Source("{% for meta in page.metadata %}
     <meta {% if meta.name %}name=\"{{ meta.name }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content }}\" {% endif %}/>
-{% endfor %}", "partials/metadata.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\system\\templates\\partials\\metadata.html.twig");
+{% endfor %}", "partials/metadata.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\system\\templates\\partials\\metadata.html.twig");
     }
 }

@@ -74,6 +74,6 @@ class __TwigTemplate_825a51bd1df7e86a1a8af84960d12b691f66c79e26bb6dc4c3a52828449
     {{ macros.nav_loop(pages) }}
 </ul>
 
-", "partials/navigation.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\navigation.html.twig");
+", "partials/navigation.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\navigation.html.twig");
     }
 }

@@ -1,9 +1,9 @@
-<div class="tile tile-centered bg-secondary" style="margin-top: .8rem;margin-bottom: .8rem;padding: .8rem;">
-    <div class="tile-title col-4" style="border-right: 1px solid black">
+<div class="tile tile-centered bg-secondary" style="padding: .8rem;">
+    <div class="tile-title col-4">
             {% include 'partials/blog/date.html.twig' %}
     </div>
-    <div class="tile-content col-4 text-center" style="border-right: 1px solid black">
-        <h5 class="m-0">{{ page.title }}</h5>
+    <div class="tile-content col-4 text-center">
+        <p class="m-0">{{ page.title }}</p>
     </div>
     <div class="tile-action col-4 text-center">
         <a href="{{ page.url }}" class="btn btn-success">Voir l'évènement</a>

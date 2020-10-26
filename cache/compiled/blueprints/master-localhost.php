@@ -1,81 +1,81 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1595006965,
-    'checksum' => '2c0ab1043fc8c15a2878e9c0a5f57f66',
+    'timestamp' => 1603373170,
+    'checksum' => 'de40cf050d5959da47b34236c7213543',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
                 'file' => 'user/plugins/admin/blueprints/config/media.yaml',
-                'modified' => 1591774633
+                'modified' => 1603178839
             ]
         ],
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1591774633
+                'modified' => 1603178839
             ],
             'plugins/aura' => [
                 'file' => 'user/plugins/aura/blueprints.yaml',
-                'modified' => 1594744794
+                'modified' => 1603178839
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1591774633
+                'modified' => 1603178839
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1594735352
+                'modified' => 1603178839
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1591774633
+                'modified' => 1603178839
             ],
-            'plugins/langswitcher' => [
-                'file' => 'user/plugins/langswitcher/blueprints.yaml',
-                'modified' => 1594745169
+            'plugins/language-selector' => [
+                'file' => 'user/plugins/language-selector/blueprints.yaml',
+                'modified' => 1603178839
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1591774633
+                'modified' => 1603178839
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1591774632
+                'modified' => 1603178839
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/blueprints.yaml',
-                'modified' => 1594744975
+                'modified' => 1603178839
             ]
         ]
     ],
@@ -3808,16 +3808,16 @@ return [
                 'name' => 'plugins.form.recaptcha.secret_key',
                 'validation' => 'strict'
             ],
-            'plugins.langswitcher' => [
+            'plugins.language-selector' => [
                 'type' => '_root',
                 'form_field' => false,
                 'form' => [
                     'validation' => 'strict'
                 ]
             ],
-            'plugins.langswitcher.enabled' => [
+            'plugins.language-selector.enabled' => [
                 'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.PLUGIN_STATUS',
                 'highlight' => 1,
                 'default' => 1,
                 'options' => [
@@ -3827,12 +3827,12 @@ return [
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.langswitcher.enabled',
+                'name' => 'plugins.language-selector.enabled',
                 'validation' => 'strict'
             ],
-            'plugins.langswitcher.built_in_css' => [
+            'plugins.language-selector.built_in_css' => [
                 'type' => 'toggle',
-                'label' => 'PLUGIN_LANGSWITCHER.BUILTIN_CSS',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUILT_IN_CSS',
                 'highlight' => 1,
                 'default' => 1,
                 'options' => [
@@ -3842,19 +3842,43 @@ return [
                 'validate' => [
                     'type' => 'bool'
                 ],
-                'name' => 'plugins.langswitcher.built_in_css',
+                'name' => 'plugins.language-selector.built_in_css',
                 'validation' => 'strict'
             ],
-            'plugins.langswitcher.untranslated_pages_behavior' => [
+            'plugins.language-selector.untranslated_pages_behavior' => [
                 'type' => 'select',
-                'label' => 'PLUGIN_LANGSWITCHER.UNTRANSLATED_PAGES_BEHAVIOR',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.LABEL',
                 'default' => 'none',
                 'options' => [
-                    'none' => 'PLUGIN_LANGSWITCHER.UNTRANSLATED_PAGES_BEHAVIOR_OPTION_NONE',
-                    'redirect' => 'PLUGIN_LANGSWITCHER.UNTRANSLATED_PAGES_BEHAVIOR_OPTION_REDIRECT',
-                    'hide' => 'PLUGIN_LANGSWITCHER.UNTRANSLATED_PAGES_BEHAVIOR_OPTION_HIDE'
+                    'none' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_NONE',
+                    'redirect' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_REDIR',
+                    'hide' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_HIDE'
                 ],
-                'name' => 'plugins.langswitcher.untranslated_pages_behavior',
+                'name' => 'plugins.language-selector.untranslated_pages_behavior',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.button_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUTTON_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'plugins.language-selector.button_display',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.select_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'plugins.language-selector.select_display',
                 'validation' => 'strict'
             ],
             'plugins.login' => [
@@ -4982,10 +5006,12 @@ return [
                         'secret_key' => 'plugins.form.recaptcha.secret_key'
                     ]
                 ],
-                'langswitcher' => [
-                    'enabled' => 'plugins.langswitcher.enabled',
-                    'built_in_css' => 'plugins.langswitcher.built_in_css',
-                    'untranslated_pages_behavior' => 'plugins.langswitcher.untranslated_pages_behavior'
+                'language-selector' => [
+                    'enabled' => 'plugins.language-selector.enabled',
+                    'built_in_css' => 'plugins.language-selector.built_in_css',
+                    'untranslated_pages_behavior' => 'plugins.language-selector.untranslated_pages_behavior',
+                    'button_display' => 'plugins.language-selector.button_display',
+                    'select_display' => 'plugins.language-selector.select_display'
                 ],
                 'login' => [
                     'enabled' => 'plugins.login.enabled',

@@ -70,6 +70,6 @@ class __TwigTemplate_b72088633928bd1cfc0b89019377834b8e9d826de75fc9807f859af9b00
             by <span class=\"text-primary\">Michaël LEMAY</span> and <span class=\"text-primary\">Pierre BEUSELINCK</span>.</p>
     </section>
 </section>
-", "partials/footer.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\footer.html.twig");
+", "partials/footer.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\footer.html.twig");
     }
 }
