@@ -62,7 +62,7 @@ Tout en maintenant la touche **Maj &#8679;** enfoncée, faites un clic droit sur
 
 - Depuis la console, taper ``composer install``
 - Une fois l'installation terminée, taper ``composer update``
-- Pour finir, taper ``composer install`` dans chaque dossier de plugins installé diposant d'un *composer.json*
+- Pour finir, taper ``composer install`` dans chaque dossier de plugins installé diposant d'un *composer.json*, e.g. user/plugins/admin
 
 Démarrez Apache, e.g.
 
