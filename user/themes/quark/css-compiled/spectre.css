@@ -2997,6 +2997,21 @@ a.text-error:visited {
   color: #fff;
 }
 
+.bg-green4 {
+  background: #154831 !important;
+  color: #fff;
+}
+
+.bg-greygreen2 {
+  background: #37423D !important;
+  color: #fff;
+}
+
+.bg-greyblue2 {
+  background: #3A404A !important;
+  color: #fff;
+}
+
 .bg-dark {
   background: #454d5d !important;
   color: #fff;

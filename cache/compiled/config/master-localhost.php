@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1603373125,
-    'checksum' => 'b741da5680edfb399f461a231584ee8e',
+    'timestamp' => 1603646160,
+    'checksum' => '315edfee59d96e6ccc6899990bf329e1',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/aura' => [
                 'file' => 'user/config/plugins/aura.yaml',
-                'modified' => 1603178839
+                'modified' => 1603639520
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -47,11 +47,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1603373122
+                'modified' => 1603646142
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1603178839
+                'modified' => 1603373722
             ]
         ],
         'system/config' => [
@@ -1028,19 +1028,19 @@ node_modules'
                     'icons' => false
                 ],
                 'custom_logo' => [
-                    'user/themes/quark/images/logo/accrobranche_without.png' => [
-                        'name' => 'accrobranche_without.png',
+                    'user/themes/quark/images/logo/accrobranche_symbole.png' => [
+                        'name' => 'accrobranche_symbole.png',
                         'type' => 'image/png',
-                        'size' => 53618,
-                        'path' => 'user/themes/quark/images/logo/accrobranche_without.png'
+                        'size' => 61192,
+                        'path' => 'user/themes/quark/images/logo/accrobranche_symbole.png'
                     ]
                 ],
                 'custom_logo_mobile' => [
-                    'user/themes/quark/images/logo/accrobranche_without.png' => [
-                        'name' => 'accrobranche_without.png',
+                    'user/themes/quark/images/logo/accrobranche_symbole.png' => [
+                        'name' => 'accrobranche_symbole.png',
                         'type' => 'image/png',
-                        'size' => 53618,
-                        'path' => 'user/themes/quark/images/logo/accrobranche_without.png'
+                        'size' => 61192,
+                        'path' => 'user/themes/quark/images/logo/accrobranche_symbole.png'
                     ]
                 ],
                 'custom_video_screen' => [

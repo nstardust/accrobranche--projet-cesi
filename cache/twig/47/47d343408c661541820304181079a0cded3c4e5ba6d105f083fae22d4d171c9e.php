@@ -35,7 +35,7 @@ class __TwigTemplate_97f5a334beb5f2c02d072d59d299ace0719514d4640b371b38d9f432900
 <section class=\"section modular-text ";
         // line 4
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "class", []);
-        echo " bg-gray\">
+        echo " bg-greyblue2\">
     <section class=\"container ";
         // line 5
         echo ($context["grid_size"] ?? null);
@@ -106,7 +106,7 @@ class __TwigTemplate_97f5a334beb5f2c02d072d59d299ace0719514d4640b371b38d9f432900
         return new Source("{% set grid_size = theme_var('grid-size') %}
 {% set image = page.media.images|first %}
 
-<section class=\"section modular-text {{ page.header.class}} bg-gray\">
+<section class=\"section modular-text {{ page.header.class}} bg-greyblue2\">
     <section class=\"container {{ grid_size }}\">
         <div class=\"columns {{ page.header.image_align|default('align-right') }}\">
             {% if image %}

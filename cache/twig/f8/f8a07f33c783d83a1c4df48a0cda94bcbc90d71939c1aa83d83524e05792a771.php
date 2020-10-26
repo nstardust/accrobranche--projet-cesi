@@ -29,7 +29,7 @@ class __TwigTemplate_3444dc88298f2e23d33aaf3825b23ed1f1ad10f4a47ea950a709d3fc9b9
         // line 1
         echo "<section id=\"";
         echo ($context["id"] ?? null);
-        echo "\" class=\"section modular-hero hero ";
+        echo "\" class=\"section modular-hero hero hero-homepagevideo ";
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "hero_classes", []);
         echo " ";
         echo (($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "background", []), "parallax", [])) ? ("parallax") : (""));
@@ -64,7 +64,6 @@ style=\"overflow: hidden;\">
         echo ($context["content"] ?? null);
         echo "
     </section>
-    <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
 </section>
 ";
     }
@@ -94,7 +93,7 @@ style=\"overflow: hidden;\">
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"{{ id }}\" class=\"section modular-hero hero {{ page.header.hero_classes }} {{ page.header.background.parallax ? 'parallax' : '' }}\"
+        return new Source("<section id=\"{{ id }}\" class=\"section modular-hero hero hero-homepagevideo {{ page.header.hero_classes }} {{ page.header.background.parallax ? 'parallax' : '' }}\"
 style=\"overflow: hidden;\">
     <div class=\"image-overlay\">
         {% set video = theme_var('custom_video_screen') %}
@@ -106,7 +105,6 @@ style=\"overflow: hidden;\">
     <section class=\"container {{ grid_size }}\" style=\"text-align: {{ page.header.hero_align|default('center') }}\">
         {{ content|raw }}
     </section>
-    <i id=\"to-start\" class=\"pulse fa fa-angle-down\"></i>
 </section>
 ", "modular/video.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\video.html.twig");
     }

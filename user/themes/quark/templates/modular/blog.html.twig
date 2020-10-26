@@ -2,7 +2,7 @@
 {% set collection = page.collection() %}
 {% set blog = page.find(header_var('blog_url')|defined(theme_var('blog-page'))) %}
 
-<section class="section modular-blog {{ page.header.class}}">
+<section class="section modular-blog modular-blog--hp {{ page.header.class}} bg-greyblue2">
     <section class="container {{ grid_size }}">
 
         {{ content|raw }}

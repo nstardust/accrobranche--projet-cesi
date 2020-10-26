@@ -29,8 +29,8 @@ section.section {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 6rem;
-  padding-bottom: 7rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-size: cover;
   background-position: center;
 }
@@ -559,24 +559,27 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before {
   border-bottom: 1px solid rgba(172, 179, 194, 0.2);
   font-size: 0.7rem;
   font-weight: 700;
-  background: #fff;
+  background: #3A404A;
   color: #454d5d;
 }
 #header a {
-  color: #454d5d;
+  color: #fff;
 }
 #header .logo svg path {
   fill: #222;
 }
 .header-dark #header:not(.scrolled) {
-  background: #222;
+  background: #3A404A;
   color: #fff;
 }
 .header-dark #header:not(.scrolled) a {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: #fff !important;
 }
 .header-dark #header:not(.scrolled) a.active {
-  color: #fff !important;
+  color: #E98437 !important;
+}
+.header-dark #header:not(.scrolled) a.hover {
+  color: #E98437 !important;
 }
 .header-dark #header:not(.scrolled) .dropmenu ul ul a {
   color: #454d5d !important;
@@ -585,10 +588,10 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before {
   fill: #fff;
 }
 .header-dark.header-transparent #header:not(.scrolled) {
-  background: rgba(0, 0, 0, 0.05);
+  background: #3A404A;
 }
 .header-transparent #header:not(.scrolled) {
-  background: rgba(255, 255, 255, 0.05);
+  background: #3A404A;
 }
 #header .navbar-section {
   height: 4rem;
@@ -641,7 +644,7 @@ body.sticky-footer #page-wrapper {
 }
 
 #footer {
-  color: #acb3c2;
+  color: #fff;
   padding: 1rem 1rem 0;
   text-align: center;
 }
@@ -905,7 +908,63 @@ ul.pagination {
 
 /* Fonts */
 /* Fonts - Poppins & Yanone Kaffeesatz*/
+p {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: 700;
+  color: #E98437;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+/* Hero video */
+.header-fixed .hero-homepagevideo {
+  background-color: rgba(58, 64, 74, 0.5);
+  background-image: radial-gradient(black 33%, transparent 33%);
+  background-size: 2px 2px;
+}
+
+.overlay-light-gradient .image-overlay {
+  background-color: rgba(58, 64, 74, 0.5);
+  background-image: radial-gradient(black 33%, transparent 33%);
+  background-size: 2px 2px;
+}
+
+.hero.text-light h1 {
+  color: #e98437;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 6.4rem;
+}
+
+.hero h1 {
+  color: #e98437;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero.text-light h2, .hero h2 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
 /* Custom modular blog and modular-banner*/
+.modular-blog--hp {
+  padding-top: 24px;
+}
+
 .modular-blog h1,
 .modular-blog h2,
 .modular-blog h3,
@@ -913,23 +972,26 @@ ul.pagination {
 .modular-blog h5,
 .modular-blog h6 {
   text-align: left;
-  font-weight: 700;
-  color: #E98437;
-  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .modular-blog {
   padding-bottom: 4rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 .modular-blog .bricklayer {
   text-align: center;
 }
 .modular-blog .tile {
+  background-color: #43e89f;
   margin-bottom: 0.8rem;
 }
-.modular-blog .tile-title, .modular-blog .tile-content {
-  border-right: 1px solid black;
+.modular-blog .tile-title,
+.modular-blog .tile-content {
+  color: #154831;
+  border-right: 1px solid #ffffff;
+}
+.modular-blog .bricklayer {
+  margin-bottom: 1.6rem;
 }
 
 .modular-banner > .columns {

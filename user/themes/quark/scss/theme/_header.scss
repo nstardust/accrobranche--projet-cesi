@@ -7,11 +7,11 @@
   font-size: 0.7rem;
   font-weight: 700;
 
-  background: $light-color;
+  background: $greyblue2;
   color: $dark-color;
 
   a {
-    color: $dark-color;
+    color: #fff;
   }
 
   .logo svg path {
@@ -19,13 +19,16 @@
   }
 
   .header-dark &:not(.scrolled) {
-    background: $header-color-dark;
+    background: $greyblue2;
     color: $light-color;
     a {
-      color: rgba($light-color, 0.7) !important;
+      color: #fff !important;
     }
     a.active {
-      color: $light-color !important;
+      color: $primary-color !important;
+    }
+    a.hover {
+      color: $primary-color !important;
     }
     .dropmenu ul ul a {
         color: $dark-color !important;
@@ -36,11 +39,11 @@
   }
 
   .header-dark.header-transparent &:not(.scrolled) {
-    background: rgba(#000, 0.05);
+    background: $greyblue2;
   }
 
   .header-transparent &:not(.scrolled) {
-    background: rgba(#fff, 0.05);
+    background: $greyblue2;
     //border-bottom: 0 !important;
   }
 

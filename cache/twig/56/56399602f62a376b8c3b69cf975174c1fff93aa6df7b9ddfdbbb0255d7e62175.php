@@ -27,7 +27,7 @@ class __TwigTemplate_b72088633928bd1cfc0b89019377834b8e9d826de75fc9807f859af9b00
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        echo "<section id=\"footer\" class=\"section bg-gray\">
+        echo "<section id=\"footer\" class=\"section bg-greyblue2\">
     <section class=\"container ";
         // line 2
         echo ($context["grid_size"] ?? null);
@@ -64,7 +64,7 @@ class __TwigTemplate_b72088633928bd1cfc0b89019377834b8e9d826de75fc9807f859af9b00
 
     public function getSourceContext()
     {
-        return new Source("<section id=\"footer\" class=\"section bg-gray\">
+        return new Source("<section id=\"footer\" class=\"section bg-greyblue2\">
     <section class=\"container {{ grid_size }}\">
         <p><a href=\"\">Accrobranché</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart-o pulse \"></i>
             by <span class=\"text-primary\">Michaël LEMAY</span> and <span class=\"text-primary\">Pierre BEUSELINCK</span>.</p>

@@ -1,0 +1,17 @@
+state: enabled
+email: pierrebeuselinck2@gmail.com
+fullname: 'Pierre Beuselinck'
+title: Administrateur
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+language: fr
+twofa_enabled: false
+twofa_secret: 5IO5PG5LTCWSGXDFNBZDSJ4DOUMZEPF4
+avatar: {  }
+info: null
+groups: null
+hashed_password: $2y$10$XS6C6eT6XYj7O2TefmmuQeyMrN2OpZ8rx3bmgd4jxEVXRUsHAnELW
