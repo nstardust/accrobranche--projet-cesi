@@ -36,9 +36,14 @@
 	  line-height: 1.5;
 	  border-radius: 3px;
 	  /* Aspect */
-	  color: #333;
-	  background-color: #fff;
-	  border-color: #ccc;
+	  color: #E98437;
+	  background-color: transparent;
+	  border-color: transparent;
+}
+
+.language-selector .btn:hover {
+	border-color: #E98437;
+	background-color: transparent;
 }
 
 .language-selector .dropdown-menu {
@@ -57,7 +62,7 @@
 	  background-color: #fff;
 	  background-clip: padding-box;
 	  border-radius: 4px;
-	  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	  /* box-shadow: 0 6px 12px rgba(0,0,0,.175); */
 }
 
 .language-selector .dropdown-menu img {

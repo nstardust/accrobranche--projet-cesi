@@ -1,125 +1,121 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1603704450,
-    'checksum' => '0adb479c0a40efa57637b6f4820432ce',
+    'timestamp' => 1603646160,
+    'checksum' => '315edfee59d96e6ccc6899990bf329e1',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/aura' => [
                 'file' => 'user/config/plugins/aura.yaml',
-                'modified' => 1603092149
-            ],
-            'plugins/email' => [
-                'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1603703659
+                'modified' => 1603639520
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/language-selector' => [
                 'file' => 'user/config/plugins/language-selector.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/config/plugins/markdown-notices.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1603704445
+                'modified' => 1603646142
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1603372380
+                'modified' => 1603373722
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1603092148
+                'modified' => 1603178839
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/aura' => [
                 'file' => 'user/plugins/aura/aura.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1603092149
+                'modified' => 1603178839
             ],
             'plugins/language-selector' => [
                 'file' => 'user/plugins/language-selector/language-selector.yaml',
-                'modified' => 1603092150
+                'modified' => 1603178839
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1603092150
+                'modified' => 1603178839
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1603092150
+                'modified' => 1603178839
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/sitemap.yaml',
-                'modified' => 1603092150
+                'modified' => 1603178839
             ]
         ]
     ],
@@ -217,9 +213,9 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => 'cyprien.labranche@gmail.com',
+                'from' => NULL,
                 'from_name' => NULL,
-                'to' => 'cyprien.labranche@gmail.com',
+                'to' => NULL,
                 'to_name' => NULL,
                 'queue' => [
                     'enabled' => false,
@@ -230,25 +226,18 @@ return [
                 'mailer' => [
                     'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'smtp.gmail.com',
+                        'server' => 'mail.lilo.org',
                         'port' => 587,
                         'encryption' => 'tls',
-                        'user' => 'cyprien.labranche@gmail.com',
-                        'password' => 'labranche2020'
+                        'user' => 'michael.lemay@lilo.org',
+                        'password' => 'mickey3D'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'
                     ]
                 ],
                 'content_type' => 'text/html',
-                'debug' => false,
-                'charset' => NULL,
-                'cc' => NULL,
-                'cc_name' => NULL,
-                'bcc' => NULL,
-                'reply_to' => NULL,
-                'reply_to_name' => NULL,
-                'body' => NULL
+                'debug' => false
             ],
             'error' => [
                 'enabled' => true,

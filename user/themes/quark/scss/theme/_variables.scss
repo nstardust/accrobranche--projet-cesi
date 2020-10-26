@@ -1,5 +1,6 @@
 // Spectre Overrides
-$primary-color: #3085EE !default;
+$primary-color: #E98437 !default;
+$secondary-color: #3085EE !default;
 $dark-color: #454d5d !default;
 $light-color: #fff !default;
 $gray-color: lighten($dark-color, 40%) !default;
@@ -7,6 +8,25 @@ $gray-color-dark: darken($gray-color, 25%) !default;
 $border-color: lighten($dark-color, 60%) !default;
 $bg-color: lighten($dark-color, 66%) !default;
 $body-font-color: lighten($dark-color, 5%) !default;
+
+//Accrobranché-color
+
+$orange : #E98437;
+$green4 : #154831;
+$green3 : #237A53;
+$green2 : #43E89F;
+$green1 : #E6F2ED;
+$blue4 : #133C83;
+$blue3 : #446CB0;
+$blue2 : #16469C;
+$blue1 : #E6EAF2;
+
+//Accrobranché-color grey
+
+$greygreen2 : #37423D;
+$greygreen1 : #A3B8AE;
+$greyblue2 : #3A404A;
+$greyblue1 : #B0B3B9;
 
 // Layout
 $horiz-padding: 1rem;

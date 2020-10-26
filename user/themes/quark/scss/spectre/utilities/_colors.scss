@@ -20,6 +20,12 @@
 
 @include bg-color-variant(".bg-secondary", $secondary-color);
 
+@include bg-color-variant(".bg-green4", $green4);
+
+@include bg-color-variant(".bg-greygreen2", $greygreen2);
+
+@include bg-color-variant(".bg-greyblue2", $greyblue2);
+
 @include bg-color-variant(".bg-dark", $dark-color);
 
 @include bg-color-variant(".bg-gray", $bg-color);
