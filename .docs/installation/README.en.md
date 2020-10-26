@@ -58,6 +58,10 @@ Double click on **Path** from *System Variables*...
 
 Simply extract [the ZIP archive](https://github.com/nstardust/accrobranche--projet-cesi/archive/main.zip) in the xampp\\**htdocs** folder
 
+![](images/click_and_download.png)
+
+<br/>
+
 While holding down the **Shift &#8679;** key, right click on the htdocs\\**accrobranche--project-cesi** folder and select "Open a command window here" (or "Open PowerShell window here ")
 
 - From the console, type ``composer install``
