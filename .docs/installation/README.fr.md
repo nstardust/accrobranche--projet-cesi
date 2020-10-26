@@ -58,6 +58,10 @@ Double-cliquez sur **Path** depuis *Variables système*...
 
 Extrayez simplement [l'archive ZIP](https://github.com/nstardust/accrobranche--projet-cesi/archive/main.zip) dans le dossier xampp\\**htdocs**
 
+![](images/click_and_download.png)
+
+<br/>
+
 Tout en maintenant la touche **Maj &#8679;** enfoncée, faites un clic droit sur le dossier htdocs\\**accrobranche--projet-cesi** et sélectionnez "Ouvrir une fenêtre de commandes ici" (ou "Ouvrir la fenêtre PowerShell ici")
 
 - Depuis la console, taper ``composer install``
