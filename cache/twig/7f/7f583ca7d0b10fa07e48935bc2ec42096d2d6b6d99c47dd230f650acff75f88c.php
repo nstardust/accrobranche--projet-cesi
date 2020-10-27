@@ -28,19 +28,19 @@ class __TwigTemplate_18839222043fd6672b6109a4750898262351ca61b282238c650803f5930
     {
         // line 1
         echo "<div class=\"tile tile-centered\" style=\"padding: .8rem;\">
-    <div class=\"tile-title col-4\">
+    <div class=\"tile-title col-4 col-sm-12\">
             ";
         // line 3
         $this->loadTemplate("partials/blog/date.html.twig", "partials/homepage-list-item.html.twig", 3)->display($context);
         // line 4
         echo "    </div>
-    <div class=\"tile-content col-4 text-center\">
+    <div class=\"tile-content col-4 col-sm-12 text-center\">
         <p class=\"m-0\">";
         // line 6
         echo $this->getAttribute(($context["page"] ?? null), "title", []);
         echo "</p>
     </div>
-    <div class=\"tile-action col-4 text-center\">
+    <div class=\"tile-action col-4 col-sm-12 text-center\">
         <a href=\"";
         // line 9
         echo $this->getAttribute(($context["page"] ?? null), "url", []);
@@ -77,13 +77,13 @@ class __TwigTemplate_18839222043fd6672b6109a4750898262351ca61b282238c650803f5930
     public function getSourceContext()
     {
         return new Source("<div class=\"tile tile-centered\" style=\"padding: .8rem;\">
-    <div class=\"tile-title col-4\">
+    <div class=\"tile-title col-4 col-sm-12\">
             {% include 'partials/blog/date.html.twig' %}
     </div>
-    <div class=\"tile-content col-4 text-center\">
+    <div class=\"tile-content col-4 col-sm-12 text-center\">
         <p class=\"m-0\">{{ page.title }}</p>
     </div>
-    <div class=\"tile-action col-4 text-center\">
+    <div class=\"tile-action col-4 col-sm-12 text-center\">
         <a href=\"{{ page.url }}\" class=\"btn btn-success\">Voir l'évènement</a>
     </div>
 </div>

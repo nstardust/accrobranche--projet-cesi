@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1603745118,
-    'checksum' => 'b156f30c4f17598db31ee7287275d888',
+    'timestamp' => 1603784050,
+    'checksum' => '99931c8635383989068566f466b7c592',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -16,6 +16,10 @@ return [
             'plugins/aura' => [
                 'file' => 'user/config/plugins/aura.yaml',
                 'modified' => 1603639520
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1603745271
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -47,7 +51,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1603745108
+                'modified' => 1603784047
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
@@ -213,9 +217,9 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'cyprien.labranche@gmail.com',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'cyprien.labranche@gmail.com',
                 'to_name' => NULL,
                 'queue' => [
                     'enabled' => false,
@@ -226,18 +230,25 @@ return [
                 'mailer' => [
                     'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'mail.lilo.org',
+                        'server' => 'smtp.gmail.com',
                         'port' => 587,
                         'encryption' => 'tls',
-                        'user' => 'michael.lemay@lilo.org',
-                        'password' => 'mickey3D'
+                        'user' => 'cyprien.labranche@gmail.com',
+                        'password' => 'labranche2020'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'
                     ]
                 ],
                 'content_type' => 'text/html',
-                'debug' => false
+                'debug' => false,
+                'charset' => NULL,
+                'cc' => NULL,
+                'cc_name' => NULL,
+                'bcc' => NULL,
+                'reply_to' => NULL,
+                'reply_to_name' => NULL,
+                'body' => NULL
             ],
             'error' => [
                 'enabled' => true,

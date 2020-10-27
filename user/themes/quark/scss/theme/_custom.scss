@@ -36,8 +36,7 @@ h6 {
   background-size: 2px 2px;
 }
 
-
-.hero.text-light h1  {
+.hero.text-light h1 {
   color: #e98437;
   font-family: "Yanone Kaffeesatz", sans-serif;
   text-transform: uppercase;
@@ -45,19 +44,28 @@ h6 {
   font-size: 6.4rem;
 }
 
-.hero h1  {
+.hero h1 {
   color: #e98437;
   font-family: "Yanone Kaffeesatz", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.hero.text-light h2, .hero h2 {
+.hero.text-light h2,
+.hero h2 {
   color: #fff;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   font-size: 1.6rem;
+}
+
+/* Custom modular-banner*/
+
+.modular-banner > .columns {
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center;
 }
 
 /* Custom modular blog and modular-banner*/
@@ -126,8 +134,61 @@ h6 {
   color: #ffffff;
 }
 
+
+#footer {
+  padding: 0;
+}
+
+#footer > .container {
+  padding: 20px 5px;
+}
+
+#footer > .container p {
+  margin: 0;
+  color: #000;
+}
+
 @media (max-width: 840px) {
   .modular-banner h2 {
     margin-bottom: 30px;
+  }
+}
+
+.card-body p {
+  color: #000 !important;
+}
+
+.bricklayer .card .card-image img {
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .blog-listing .bricklayer-column {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero.text-light h1 {
+    font-size: 3rem;
+  }
+  .modular-blog {
+    padding-bottom: 4rem;
+    font-family: "Poppins", sans-serif !important;
+    .bricklayer {
+      text-align: center;
+    }
+    .tile {
+      display: flex;
+      flex-direction: column;
+    }
+    .tile-title,
+    .tile-content {
+      border-right: none;
+      margin-bottom: 0.8rem;
+    }
+    .bricklayer {
+      margin-bottom: 1.6rem;
+    }
   }
 }

@@ -50,7 +50,7 @@ class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d
 
         ";
         // line 10
-        $this->loadTemplate("modular/blog.html.twig", "modular/blog.html.twig", 10, "437146627")->display(twig_array_merge($context, ["blog" => ($context["page"] ?? null)]));
+        $this->loadTemplate("modular/blog.html.twig", "modular/blog.html.twig", 10, "1613412493")->display(twig_array_merge($context, ["blog" => ($context["page"] ?? null)]));
         // line 25
         echo "        <div class=\"text-center\">
             <a href=\"";
@@ -141,7 +141,7 @@ class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d
 
 
 /* modular/blog.html.twig */
-class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d52236___437146627 extends \Twig\Template
+class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d52236___1613412493 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

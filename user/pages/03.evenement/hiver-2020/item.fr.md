@@ -29,6 +29,6 @@ metadata:
 
 ## Accrobranche : tout ce qu’il faut savoir
 
-**Vous souhaitez prendre un grand bol d’air, faire une activité en famille amusante, peu coûteuse et qui permet aux enfants (et aux grands!) de se défouler ? L’accrobranche est l’activité idéale pour cela !**
+Vous souhaitez prendre un grand bol d’air, faire une activité en famille amusante, peu coûteuse et qui permet aux enfants (et aux grands!) de se défouler ? L’accrobranche est l’activité idéale pour cela !
 
 L’accrobranche est principalement associé au parcours d’aventure en pleine nature plus précisément au **parcours acrobatique en hauteur** (PAH). C’est une discipline aérienne et acrobatique inspirée des parcours militaires. Aujourd’hui, elle est adaptée au grand public. Cette activité est accessible à tous; petits comme grands peuvent venir s’amuser !
