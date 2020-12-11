@@ -64,6 +64,6 @@ class __TwigTemplate_e1732c2d03f5a3a3a5b9ce4354896dc04cd5cf1575d97548d3fba78c37e
     {
         return new Source("{% block content_surround %}
 {% block content %}{% endblock %}
-{% endblock %}", "blocks/base.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\blocks\\base.html.twig");
+{% endblock %}", "blocks/base.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\blocks\\base.html.twig");
     }
 }

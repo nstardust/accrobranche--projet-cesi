@@ -50,7 +50,7 @@ class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d
 
         ";
         // line 10
-        $this->loadTemplate("modular/blog.html.twig", "modular/blog.html.twig", 10, "1613412493")->display(twig_array_merge($context, ["blog" => ($context["page"] ?? null)]));
+        $this->loadTemplate("modular/blog.html.twig", "modular/blog.html.twig", 10, "411656689")->display(twig_array_merge($context, ["blog" => ($context["page"] ?? null)]));
         // line 25
         echo "        <div class=\"text-center\">
             <a href=\"";
@@ -135,13 +135,13 @@ class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d
             </a>
         </div>
     </section>
-</section>", "modular/blog.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\blog.html.twig");
+</section>", "modular/blog.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\blog.html.twig");
     }
 }
 
 
 /* modular/blog.html.twig */
-class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d52236___1613412493 extends \Twig\Template
+class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d52236___411656689 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -281,6 +281,6 @@ class __TwigTemplate_a62e131515c3bf7cb52e92ce033cd25304b12b365404c59a9cba4be572d
             </a>
         </div>
     </section>
-</section>", "modular/blog.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\blog.html.twig");
+</section>", "modular/blog.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\blog.html.twig");
     }
 }

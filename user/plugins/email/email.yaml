@@ -9,13 +9,14 @@ queue:
   flush_msg_limit: 10
   flush_time_limit: 100
 mailer:
-  engine: smtp
+  engine: sendmail
   smtp:
-    server: mail.lilo.org
-    port: 587
-    encryption: tls
-    user: 'michael.lemay@lilo.org'
-    password: 'mickey3D'
+    server: localhost
+    port: 25
+    encryption: none
+    user: ''
+    password: ''
+    auth_mode: ''
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html

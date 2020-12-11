@@ -88,6 +88,6 @@ class __TwigTemplate_18839222043fd6672b6109a4750898262351ca61b282238c650803f5930
     </div>
 </div>
 
-", "partials/homepage-list-item.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\homepage-list-item.html.twig");
+", "partials/homepage-list-item.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\homepage-list-item.html.twig");
     }
 }

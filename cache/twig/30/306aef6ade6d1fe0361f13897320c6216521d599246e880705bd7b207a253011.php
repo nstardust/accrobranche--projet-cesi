@@ -87,6 +87,6 @@ class __TwigTemplate_d9a15c964272ea5c8e684333a447a9089ce65c0ca0d358df67007a0924e
 {% else %}
   {% include('@images/grav-logo.svg') %}
 {% endif %}
-</a>", "partials/logo.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\logo.html.twig");
+</a>", "partials/logo.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\logo.html.twig");
     }
 }

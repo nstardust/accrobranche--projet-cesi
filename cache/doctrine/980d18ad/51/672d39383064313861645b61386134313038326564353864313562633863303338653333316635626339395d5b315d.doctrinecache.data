@@ -1,0 +1,27 @@
+1608303317
+a:2:{s:7:"content";s:1743:"
+<section class="section modular-blog  bg-greyblue2">
+    <section class="container-fluid grid-lg">
+
+        <h2>Suivez-nous sur les réseaux</h2>
+<h3><a href="https://www.instagram.com/accrobranche.lille/" title="Visit our Instagram!"><i class="fa fa-lg fa-instagram"></i></a> <a href="https://www.facebook.com/cyprien.labranche.9" title="Visit our Facebook"><i class="fa fa-lg fa-facebook"></i></a></h3>
+                    <div class="columns" id="instafeed" style=" align-content: space-around; ">
+                            <div class="column col-xs-6 col-sm-4 col-md-3 col-lg-2 col-3" style="flex: auto;">
+                    <a href="https://www.instagram.com/p/CBDU2c8p58D" target="_blank">
+                        <img src="/accrobranche--projet-cesi/user/pages/01.accrobranche/05._instagram/CBDU2c8p58D.jpg" class="img-fluid" alt=""/>
+                    </a>
+                </div>
+                            <div class="column col-xs-6 col-sm-4 col-md-3 col-lg-2 col-3" style="flex: auto;">
+                    <a href="https://www.instagram.com/p/CBDXgXTJCZF" target="_blank">
+                        <img src="/accrobranche--projet-cesi/user/pages/01.accrobranche/05._instagram/CBDXgXTJCZF.jpg" class="img-fluid" alt=""/>
+                    </a>
+                </div>
+                            <div class="column col-xs-6 col-sm-4 col-md-3 col-lg-2 col-3" style="flex: auto;">
+                    <a href="https://www.instagram.com/p/CBDZRSxJSMX" target="_blank">
+                        <img src="/accrobranche--projet-cesi/user/pages/01.accrobranche/05._instagram/CBDZRSxJSMX.jpg" class="img-fluid" alt=""/>
+                    </a>
+                </div>
+                        </div>
+        
+    </section>
+</section>";s:12:"content_meta";N;}

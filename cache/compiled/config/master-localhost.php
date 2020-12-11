@@ -1,125 +1,129 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1603784050,
-    'checksum' => '99931c8635383989068566f466b7c592',
+    'timestamp' => 1607699276,
+    'checksum' => '2ab5188ef1e5fee19669d4c92440bb28',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'plugins/aura' => [
                 'file' => 'user/config/plugins/aura.yaml',
-                'modified' => 1603639520
+                'modified' => 1602505519
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1603745271
+                'modified' => 1604577292
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'plugins/language-selector' => [
                 'file' => 'user/config/plugins/language-selector.yaml',
-                'modified' => 1603178839
+                'modified' => 1602517068
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/config/plugins/markdown-notices.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1603178839
+                'modified' => 1602505519
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1603784047
+                'modified' => 1604577471
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
-                'modified' => 1603373722
+                'modified' => 1604577292
+            ],
+            'versions' => [
+                'file' => 'user/config/versions.yaml',
+                'modified' => 1607698966
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699251
             ],
             'plugins/aura' => [
                 'file' => 'user/plugins/aura/aura.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699271
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699242
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1603178839
+                'modified' => 1602327467
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699267
             ],
             'plugins/language-selector' => [
                 'file' => 'user/plugins/language-selector/language-selector.yaml',
-                'modified' => 1603178839
+                'modified' => 1602516329
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699273
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1603178839
+                'modified' => 1601626098
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/sitemap.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699247
             ]
         ]
     ],
@@ -234,7 +238,8 @@ return [
                         'port' => 587,
                         'encryption' => 'tls',
                         'user' => 'cyprien.labranche@gmail.com',
-                        'password' => 'labranche2020'
+                        'password' => 'labranche2020',
+                        'auth_mode' => ''
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -bs'
@@ -560,7 +565,7 @@ node_modules'
                 'docx' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-docx.png',
-                    'mime' => 'application/msword'
+                    'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
                 ],
                 'xls' => [
                     'type' => 'file',
@@ -570,7 +575,7 @@ node_modules'
                 'xlsx' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-xlsx.png',
-                    'mime' => 'application/vnd.ms-excel'
+                    'mime' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
                 ],
                 'ppt' => [
                     'type' => 'file',
@@ -580,7 +585,7 @@ node_modules'
                 'pptx' => [
                     'type' => 'file',
                     'thumb' => 'media/thumb-pptx.png',
-                    'mime' => 'application/vnd.ms-powerpoint'
+                    'mime' => 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
                 ],
                 'pps' => [
                     'type' => 'file',
@@ -1060,6 +1065,17 @@ node_modules'
                         'type' => 'video/mp4',
                         'size' => 20264926,
                         'path' => 'user/themes/quark/video/171120_002.mp4'
+                    ]
+                ]
+            ]
+        ],
+        'versions' => [
+            'core' => [
+                'grav' => [
+                    'version' => '1.6.30',
+                    'history' => [
+                        'version' => '1.6.30',
+                        'date' => '2020-12-11 15:02:46'
                     ]
                 ]
             ]

@@ -106,6 +106,6 @@ style=\"overflow: hidden;\">
         {{ content|raw }}
     </section>
 </section>
-", "modular/video.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\video.html.twig");
+", "modular/video.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\video.html.twig");
     }
 }

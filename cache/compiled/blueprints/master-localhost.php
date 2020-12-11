@@ -1,140 +1,86 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1603784100,
-    'checksum' => 'de40cf050d5959da47b34236c7213543',
+    'timestamp' => 1607699279,
+    'checksum' => 'f1d61c39afd8b4d2b6110010097f3730',
     'files' => [
-        'user/plugins/admin/blueprints/config' => [
-            'media' => [
-                'file' => 'user/plugins/admin/blueprints/config/media.yaml',
-                'modified' => 1603178839
-            ]
-        ],
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1603178839
+                'modified' => 1607698557
+            ]
+        ],
+        'user/plugins/admin/blueprints/config' => [
+            'media' => [
+                'file' => 'user/plugins/admin/blueprints/config/media.yaml',
+                'modified' => 1607699251
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699251
             ],
             'plugins/aura' => [
                 'file' => 'user/plugins/aura/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699271
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699242
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1602327467
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699267
             ],
             'plugins/language-selector' => [
                 'file' => 'user/plugins/language-selector/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1602942066
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699273
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1601626100
             ],
             'plugins/sitemap' => [
                 'file' => 'user/plugins/sitemap/blueprints.yaml',
-                'modified' => 1603178839
+                'modified' => 1607699247
             ]
         ]
     ],
     'data' => [
         'items' => [
-            'media' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'loose'
-                ]
-            ],
-            'media.types' => [
-                'name' => 'media.types',
-                'type' => 'list',
-                'label' => 'PLUGIN_ADMIN.MEDIA_TYPES',
-                'style' => 'vertical',
-                'key' => 'extension',
-                'controls' => 'both',
-                'collapsed' => true,
-                'validation' => 'loose',
-                'array' => true
-            ],
-            'media.types.*' => [
-                'type' => '_parent',
-                'name' => 'media.types.*',
-                'form_field' => false
-            ],
-            'media.types.*.type' => [
-                'type' => 'text',
-                'label' => 'PLUGIN_ADMIN.TYPE',
-                'name' => 'media.types.*.type',
-                'validation' => 'loose'
-            ],
-            'media.types.*.thumb' => [
-                'type' => 'text',
-                'label' => 'PLUGIN_ADMIN.THUMB',
-                'name' => 'media.types.*.thumb',
-                'validation' => 'loose'
-            ],
-            'media.types.*.mime' => [
-                'type' => 'text',
-                'label' => 'PLUGIN_ADMIN.MIME_TYPE',
-                'validate' => [
-                    'type' => 'lower'
-                ],
-                'name' => 'media.types.*.mime',
-                'validation' => 'loose'
-            ],
-            'media.types.*.image' => [
-                'type' => 'textarea',
-                'yaml' => true,
-                'label' => 'PLUGIN_ADMIN.IMAGE_OPTIONS',
-                'validate' => [
-                    'type' => 'yaml'
-                ],
-                'name' => 'media.types.*.image',
-                'validation' => 'loose'
-            ],
             'backups' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -286,6 +232,13 @@ return [
                 ],
                 'name' => 'backups.profiles.*.schedule_at',
                 'validation' => 'loose'
+            ],
+            'media' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'loose'
+                ]
             ],
             'scheduler' => [
                 'type' => '_root',
@@ -3466,6 +3419,13 @@ return [
                 'name' => 'plugins.email.mailer.smtp.password',
                 'validation' => 'loose'
             ],
+            'plugins.email.mailer.smtp.auth_mode' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'PLUGIN_EMAIL.SMTP_AUTH_MODE',
+                'name' => 'plugins.email.mailer.smtp.auth_mode',
+                'validation' => 'loose'
+            ],
             'plugins.email.mailer.sendmail' => [
                 'type' => '_parent',
                 'name' => 'plugins.email.mailer.sendmail',
@@ -4587,16 +4547,6 @@ return [
             
         ],
         'nested' => [
-            'media' => [
-                'types' => [
-                    '*' => [
-                        'type' => 'media.types.*.type',
-                        'thumb' => 'media.types.*.thumb',
-                        'mime' => 'media.types.*.mime',
-                        'image' => 'media.types.*.image'
-                    ]
-                ]
-            ],
             'backups' => [
                 'history' => 'backups.history',
                 'purge' => [
@@ -4616,6 +4566,7 @@ return [
                     ]
                 ]
             ],
+            'media' => 'media',
             'scheduler' => [
                 'status' => 'scheduler.status',
                 'custom_jobs' => [
@@ -4951,7 +4902,8 @@ return [
                             'port' => 'plugins.email.mailer.smtp.port',
                             'encryption' => 'plugins.email.mailer.smtp.encryption',
                             'user' => 'plugins.email.mailer.smtp.user',
-                            'password' => 'plugins.email.mailer.smtp.password'
+                            'password' => 'plugins.email.mailer.smtp.password',
+                            'auth_mode' => 'plugins.email.mailer.smtp.auth_mode'
                         ],
                         'sendmail' => [
                             'bin' => 'plugins.email.mailer.sendmail.bin'

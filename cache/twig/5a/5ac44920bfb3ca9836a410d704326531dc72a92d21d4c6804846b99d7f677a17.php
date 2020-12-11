@@ -90,6 +90,6 @@ class __TwigTemplate_289bb96d6905d7c104465092b3f2be29eec4acd9c50d888bbdd90bc5a1b
                 {{ content|raw }}
             </div>
         </div>
-    </section>", "modular/banner.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\banner.html.twig");
+    </section>", "modular/banner.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\modular\\banner.html.twig");
     }
 }

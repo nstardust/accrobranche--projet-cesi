@@ -71,6 +71,6 @@ class __TwigTemplate_96727a46c82de7fe192bba283d63f59a336d40ef6157864d288d3741b17
         <i class=\"fa fa-calendar\"></i> {{ page.date|date(system.pages.dateformat.short) }}
     </time>
 </span>
-", "partials/blog/date.html.twig", "C:\\xampp\\htdocs\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\blog\\date.html.twig");
+", "partials/blog/date.html.twig", "E:\\Program Files (x86)\\localhost\\accrobranche--projet-cesi\\user\\themes\\quark\\templates\\partials\\blog\\date.html.twig");
     }
 }
